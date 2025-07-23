@@ -41,6 +41,10 @@
     color: #000;
 }
 
+.font-orange {
+    color: #E95A08;
+}
+
 .font-gary {
     color: #8987A1;
 }
@@ -86,11 +90,47 @@ body {
 }
 
 .active {
-    font-weight: 600;
+    font-weight: 700;
+}
+/* NAVBAR CSS END */
+
+
+
+
+/* STARTED BANNER SECTION */
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 226px;
+}
+
+.banner-content {
+    margin-top: 282px;
+}
+
+.banner-title {
+    max-width: 570px;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-article {
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+}
+
+.banner-image {
+    max-width: 570px;
+    margin-top: 226px;
+
 }
 
 
-/* NAVBAR CSS END */
+
+/* END BANNER SECTION */
 
 
 
@@ -122,5 +162,24 @@ body {
   .navbar {
     margin: 0 16px;
 }
+
+.banner-section {
+    flex-direction: column-reverse;
+    margin-top: 28px;
+}
+
+.banner-content {
+    margin-top: 28px;
+    margin-left: 16px;
+}
+
+.banner-image {
+    margin-top: 0;
+}
+
+.banner-title {
+    font-size: 2.9rem;
+}
+
 
 }
