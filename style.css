@@ -91,3 +91,36 @@ body {
 
 
 /* NAVBAR CSS END */
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+/* --------------------- */
+/* --------------------- */
+
+
+@media screen and (max-width: 576px) {
+  .nav-link {
+    display: none;
+  }
+
+  .shown {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .logo {
+    margin-top: 13px;
+  }
+
+  .navbar {
+    margin: 0 16px;
+}
+
+}
