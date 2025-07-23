@@ -1,0 +1,93 @@
+/* ADDED GOOGLE FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* UNIVERSAL CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+
+
+/* SHARED STYLES */
+
+.font-dark {
+    color: #252432;
+}
+
+.font-black {
+    color: #000;
+}
+
+.font-gary {
+    color: #8987A1;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: rgb(245, 248, 255);
+}
+
+
+/* NAVBAR CSS START */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 135px;
+    margin-top: 24.5px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-links ul {
+    display: flex;
+    max-width: 415px;
+    gap: 48px;
+    align-items: center;
+    margin-top: 35.5px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.active {
+    font-weight: 600;
+}
+
+
+/* NAVBAR CSS END */
