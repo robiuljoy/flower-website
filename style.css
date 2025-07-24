@@ -29,111 +29,103 @@
   list-style: none;
 }
 
-
-
 /* SHARED STYLES */
 
 .font-dark {
-    color: #252432;
+  color: #252432;
 }
 
 .font-black {
-    color: #000;
+  color: #000;
 }
 
 .font-orange {
-    color: #E95A08;
+  color: #e95a08;
 }
 
 .font-gary {
-    color: #8987A1;
+  color: #8987a1;
 }
 
 .paragraph-color {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
-
 
 body {
-    background-color: rgb(245, 248, 255);
+  background-color: rgb(245, 248, 255);
 }
-
 
 /* NAVBAR CSS START */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    max-width: 135px;
-    margin-top: 24.5px;
+  max-width: 135px;
+  margin-top: 24.5px;
 }
 
 .logo img {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-links ul {
-    display: flex;
-    max-width: 415px;
-    gap: 48px;
-    align-items: center;
-    margin-top: 35.5px;
+  display: flex;
+  max-width: 415px;
+  gap: 48px;
+  align-items: center;
+  margin-top: 35.5px;
 }
 
 .nav-link {
-    font-size: 1rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .active {
-    font-weight: 700;
+  font-weight: 700;
 }
 /* NAVBAR CSS END */
-
-
-
 
 /* STARTED BANNER SECTION */
 
 .banner-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .banner-content {
-    margin-top: 282px;
+  margin-top: 282px;
 }
 
 .banner-title {
-    max-width: 570px;
-    font-weight: 700;
-    font-size: 4rem;
+  max-width: 570px;
+  font-weight: 700;
+  font-size: 4rem;
 }
 
 .banner-article {
-    font-size: 1.375rem;
-    color: rgba(0, 0, 0, 0.5);
-    margin-top: 13px;
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 13px;
 }
 
 .banner-image {
-    max-width: 570px;
-    margin-top: 226px;
-
+  max-width: 570px;
+  margin-top: 226px;
 }
 
 .banner-image img {
-    display: block;
-    height: auto;
+  display: block;
+  height: auto;
 }
 
 /* END BANNER SECTION */
@@ -141,147 +133,280 @@ body {
 /* ------------------------ */
 /* ------------------------ */
 
-
-
-
-
 /* OUR PLANTS SECTION START */
 
 .out-plant-section {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
-
 .title-part {
-    text-align: center;
+  text-align: center;
 }
 
 .title-part h3 {
-    font-size: 3.125rem;
-    font-weight: 700;
-    margin-bottom: 16px;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .title-part p {
-    width: 888px;
-    font-size: 1.375rem;
-    font-weight: 400;
-    margin-bottom: 49px;
+  width: 888px;
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 49px;
 }
 
 .card-part {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
-
 .card {
-    max-width: 270px;
-    min-height: 485px;
+  max-width: 270px;
+  min-height: 485px;
 }
 
 .card h5 {
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.375rem;
-    color: #111111;
-    margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #111111;
+  margin-bottom: 20px;
 }
 
 .card h5:nth-child(3) {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
 .card-btn {
-    font-family: "Inter", sans-serif;
-    background: #E95A08;
-    padding: 20px 90px;
-    font-size: 0.8rem;
-    color: #fff;
-    font-weight: 600;
-    transition: 0.3s all ease;
-    cursor: pointer;
+  font-family: "Inter", sans-serif;
+  background: #e95a08;
+  padding: 20px 90px;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s all ease;
+  cursor: pointer;
 }
 /* OUR PALNTS SECTION END */
 
 /* TRUSTED SELLER SECTION START */
 
 .trusted-seller-section {
-    margin-top: 210px;
+  margin-top: 210px;
 }
 
 .left-side {
-    max-width: 540px;
+  max-width: 540px;
 }
 
 .right-side {
-    max-width: 540px;
-    margin-left: 60px;
+  max-width: 540px;
+  margin-left: 60px;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-} 
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
 
 .image {
-    width: 540px;
-    max-width: 100%;
-    position: relative;
+  width: 540px;
+  max-width: 100%;
+  position: relative;
 }
 
 .big-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
 }
 
 .small-image {
-    position: absolute;
-    top: -130px;
-    right: -80px;
-    width: 286px;
-    max-width: 100%;
+  position: absolute;
+  top: -130px;
+  right: -80px;
+  width: 286px;
+  max-width: 100%;
 }
 
 .right-side h3 {
-    font-size: 3.125rem;
-    font-weight: 700;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
-
 
 .right-side ul li {
-    list-style-type: disc;
-    font-size: 1.375rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-
+  list-style-type: disc;
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
-
 
 /* TRUSTED SELLER SECTION END */
 
+/* DEALS SECTION START */
 
+.deal-section {
+  margin-top: 135px;
+}
 
+.deal-section h3 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
+.deal-section p {
+  font-size: 1.375rem;
+  font-weight: 400;
+  max-width: 888px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
 
+.image-part {
+  display: grid;
+  grid-template-columns: 367px 753px;
+  grid-template-rows: 210px 210px;
+  gap: 28px;
+  text-align: center;
+}
 
+.image-part h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
 
+.right-img h4 {
+  font-size: 3.125rem;
+}
 
+.left1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/deal-bloom.png");
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.left2 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.right-img {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  grid-row: span 2;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.btn-deals {
+  color: #fff;
+  font-size: 1rem;
+  border-bottom: 2px solid #fff;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+}
 
+.right-img .btn-deals {
+  font-size: 1.75rem;
+}
 
+/* DEALS SECTION END */
 
+/* JOIN SECTION START */
 
+.join-section {
+  margin-top: 120px;
+  background-image: url(assets/news-letter-bg.png);
+  height: 533px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-content {
+  max-width: 830px;
+  width: 100%;
+}
+
+.input-field {
+  display: flex;
+  max-width: 830px;
+  margin: 0 auto;
+  height: 50px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.input-field input {
+  flex: 1;
+  border: none;
+  padding: 0 30px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.subscribe-btn {
+  background-color: #e95a08;
+  color: #fff;
+  border: none;
+  padding: 26px 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.join-section h3 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+/* JOIN SECTION END */
 
 /* RESPONSIVE CSS */
 /* --------------------- */
 /* --------------------- */
-
 
 @media screen and (max-width: 576px) {
   .nav-link {
@@ -299,92 +424,118 @@ body {
 
   .navbar {
     margin: 0 16px;
-}
+  }
 
-.banner-section {
+  .banner-section {
     flex-direction: column-reverse;
     margin-top: 28px;
-}
+  }
 
-.banner-content {
+  .banner-content {
     margin-top: 28px;
     margin-left: 10px;
-}
+  }
 
-.banner-image {
+  .banner-image {
     margin-top: 0;
     max-width: 520px;
-    
-    
-}
+  }
 
-.banner-image img {
+  .banner-image img {
     width: 100%;
-}
+  }
 
-.banner-title {
+  .banner-title {
     font-size: 2.9rem;
-}
+  }
 
+  /* OUR PLANT SECTION */
 
-
-
-/* OUR PLANT SECTION */
-
-.card-part {
+  .card-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:10px;
-}
+    gap: 10px;
+  }
 
-.title-part p {
+  .title-part p {
     width: 336px;
     font-size: 0.875rem;
     margin: 0 auto;
     margin-bottom: 28px;
-}
+  }
 
-.card h5 {
+  .card h5 {
     font-size: 1.5rem;
-}
+  }
 
-.card {
+  .card {
     max-width: 171px;
     min-height: 340px;
     margin: 0 auto;
-}
+  }
 
-
-.card img {
+  .card img {
     max-width: 100%;
-}
+  }
 
-.card h5 {
+  .card h5 {
     font-size: 1rem;
     margin-bottom: 5px;
-}
+  }
 
-.card h5:nth-child(3) {
+  .card h5:nth-child(3) {
     margin-bottom: 20px;
-}
+  }
 
-.card-btn {
+  .card-btn {
     padding: 10px 16px;
     width: 171px;
     font-size: 1rem;
-}
+  }
 
+  .right-side h3 {
+    font-size: 1.5rem;
+  }
 
-.flex {
+  .flex {
     flex-direction: column;
-}
+  }
 
-.small-image {
+  .small-image {
     display: none;
-}
+  }
 
+  .image-part {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 90%;
+    margin: 0 auto;
+  }
 
+  .left1 {
+    height: 201px;
+  }
 
+  .left2 {
+    height: 201px;
+  }
 
+  .right-img {
+    height: 201px;
+  }
+  .right-img h4 {
+    font-size: 1.25rem;
+  }
 
+  .join-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .input-field {
+    width: 90%;
+  }
+
+  .subscribe-btn {
+    padding: 26px 30px;
+  }
 }
