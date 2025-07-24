@@ -191,6 +191,9 @@ body {
 }
 /* OUR PALNTS SECTION END */
 
+/* --------------------------- */
+/* --------------------------- */
+
 /* TRUSTED SELLER SECTION START */
 
 .trusted-seller-section {
@@ -244,6 +247,9 @@ body {
 }
 
 /* TRUSTED SELLER SECTION END */
+
+/* ---------------------------- */
+/* ---------------------------- */
 
 /* DEALS SECTION START */
 
@@ -344,6 +350,9 @@ body {
 
 /* DEALS SECTION END */
 
+/* ----------------------- */
+/* ----------------------- */
+
 /* JOIN SECTION START */
 
 .join-section {
@@ -401,8 +410,64 @@ body {
   text-align: center;
   color: #fff;
 }
-
 /* JOIN SECTION END */
+/* ---------------------- */
+/* ---------------------- */
+
+/* FOOTER SECTION START */
+
+.footer-section {
+  background-color: #fff;
+}
+
+.footer-section .container {
+  max-width: 1120px;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 359px 85px 128px 216px;
+  gap: 170px;
+  padding-top: 50px;
+}
+.row1 p {
+  font-size: 1.375rem;
+  width: 360px;
+  margin-top: 16px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 400;
+  gap: 32px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 400;
+  gap: 32px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.row4 {
+  display: flex;
+  gap: 32px;
+  margin-top: 50px;
+  cursor: pointer;
+  max-width: 36px;
+  height: 36px;
+}
+
+/* FOOTER SECTION END */
+/* ------------------------ */
+/* ------------------------ */
 
 /* RESPONSIVE CSS */
 /* --------------------- */
@@ -442,6 +507,7 @@ body {
   }
 
   .banner-image img {
+    width: 100%;
     width: 100%;
   }
 
@@ -501,6 +567,10 @@ body {
     flex-direction: column;
   }
 
+  .deal-section p {
+    width: 420px;
+  }
+
   .small-image {
     display: none;
   }
@@ -537,5 +607,18 @@ body {
 
   .subscribe-btn {
     padding: 26px 30px;
+  }
+
+  /* FOOTER SECTION */
+
+  .rows {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
+    gap: 0px;
+    padding-left: 25px;
+  }
+  .row4 {
+    max-width: 50%;
+    margin-bottom: 50px;
   }
 }
