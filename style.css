@@ -150,9 +150,10 @@ body {
 }
 
 .title-part p {
-  width: 888px;
+  max-width: 888px;
   font-size: 1.375rem;
   font-weight: 400;
+  margin: 0 auto;
   margin-bottom: 49px;
 }
 
@@ -557,6 +558,10 @@ body {
     padding: 10px 16px;
     width: 171px;
     font-size: 1rem;
+  }
+
+  .trusted-seller-section {
+    margin-top: 20px;
   }
 
   .right-side h3 {
